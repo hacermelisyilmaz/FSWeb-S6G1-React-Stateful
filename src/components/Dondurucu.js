@@ -49,7 +49,7 @@ export default function Dondurucu() {
     <div className="widget-spinner container">
       <h2>Döndürücü</h2>
       {
-        true && (
+        dondurucuAcik && (
           <div id="döndürücü" className="spinner">
             --+--
           </div>
