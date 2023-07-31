@@ -42,7 +42,7 @@ export default function Dondurucu() {
   const [dondurucuAcik, setDondurucuAcik] = useState(true);
 
   const toggleDondurucu = () => {
-    /* ADIM 4 */
+    setDondurucuAcik(!dondurucuAcik);
   };
 
   return (
