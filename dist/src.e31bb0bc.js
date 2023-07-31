@@ -28966,7 +28966,9 @@ function Sayac() {
     /* ADIM 5 */
     setSayici(sayici - 1);
   };
-  var reset = function reset() {};
+  var reset = function reset() {
+    setSayici(0);
+  };
   var stil = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
