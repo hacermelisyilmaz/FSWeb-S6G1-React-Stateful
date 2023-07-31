@@ -49,7 +49,7 @@ import React, {useState} from 'react'; /* ADIM 0 buraya*/
 
 export default function Sayac() {
   /* ADIM 1 buraya*/
-	
+	const [sayici, setSayici] = useState(0);
 	
   const artirici = () => {
     /* ADIM 4 buraya */
