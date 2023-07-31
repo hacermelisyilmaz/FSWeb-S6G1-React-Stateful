@@ -56,7 +56,7 @@ export default function Dondurucu() {
         ) /* ADIM 2 */
       }
       <button id="toggleDondurucu" onClick={toggleDondurucu}>
-        Gizle {/* STEP 3 */}
+        {/* STEP 3 */ dondurucuAcik ? "Gizle" : "Göster"}
       </button>
     </div>
   );
