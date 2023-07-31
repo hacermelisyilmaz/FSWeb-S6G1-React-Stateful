@@ -39,12 +39,15 @@ export default function RuhHalleri() {
 
   const mutluEt = () => {
     /* ADIM 4 */
+    setRuhHali(mutluRuhHali);
   };
   const uZ = () => {
     /* ADIM 5 */
+    setRuhHali(uzgunRuhHali);
   };
   const reset = () => {
     /* ADIM 6 */
+    setRuhHali(ilkRuhHali);
   };
 
   const stil = {
