@@ -28964,6 +28964,7 @@ function Sayac() {
   };
   var azaltici = function azaltici() {
     /* ADIM 5 */
+    setSayici(sayici - 1);
   };
   var reset = function reset() {};
   var stil = {
