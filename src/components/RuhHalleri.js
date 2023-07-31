@@ -50,7 +50,7 @@ export default function RuhHalleri() {
   const stil = {
     fontSize: "1.5em",
     marginBottom: "0.3em",
-    color: "royalblue" /* ADIM 2 */,
+    color: ruhHali === mutluRuhHali ? "royalblue" : "crimson" /* ADIM 2 */,
   };
 
   return (
