@@ -48,6 +48,7 @@ export default function Input() {
   };
   const reset = () => {
     /* ADIM 5 */
+    inputDegeri = "";
   };
 
   const stil = {
