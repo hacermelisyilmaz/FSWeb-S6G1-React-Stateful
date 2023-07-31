@@ -64,7 +64,12 @@ export default function Input() {
         {/* ADIM 3 */ inputDegeri.toUpperCase()}
       </div>
       <div>
-        <input id="input" type="text" onChange={inputuDeğiştir} />{" "}
+        <input
+          id="input"
+          type="text"
+          value={inputDegeri}
+          onChange={inputuDeğiştir}
+        />{" "}
         {/* ADIM 6 */}
         <button id="resetInput" onClick={reset}>
           Reset
