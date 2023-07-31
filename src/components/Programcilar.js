@@ -62,6 +62,7 @@ export default function Programcilar() {
               <button
                 onClick={() => {
                   /* burada dev.id 'yi öne çıkan id'ye atayın */
+                  setOneCikanProgramciID(dev);
                 }}
               >
                 Kutla
