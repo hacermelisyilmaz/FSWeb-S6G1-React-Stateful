@@ -44,7 +44,7 @@ export default function Programcilar() {
   const stil = {
     fontSize: "1.5em",
     marginTop: "0.5em",
-    color: "royalblue", // 🤔 kutlarken renk gold'a dönecek
+    color: oneCikanProgramciID ? "gold" : "royalblue", // 🤔 kutlarken renk gold'a dönecek
   };
 
   return (
