@@ -45,7 +45,7 @@ ADIM 6:
 	Bu click handler 'sayici' yı sıfırlamak için 'setSayici' yi kullanacak.
 */
 
-import React from 'react'; /* ADIM 0 buraya*/
+import React, {useState} from 'react'; /* ADIM 0 buraya*/
 
 export default function Sayac() {
   /* ADIM 1 buraya*/
