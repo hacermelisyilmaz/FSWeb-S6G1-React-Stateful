@@ -29078,8 +29078,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = RuhHalleri;
-var _react = _interopRequireDefault(require("react"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _react = _interopRequireWildcard(require("react"));
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 /*
 RuhHalleri Talimatları
 
@@ -29111,9 +29112,9 @@ ADIM 4, 5, 6:
 
 /* ADIM 0 */
 
-var ilkRuhHali = 'Nasıl hissettiğimi bilmiyorum :-|';
-var mutluRuhHali = 'Oldukça mutlu :)';
-var uzgunRuhHali = 'Oldukça üzgün :(';
+var ilkRuhHali = "Nasıl hissettiğimi bilmiyorum :-|";
+var mutluRuhHali = "Oldukça mutlu :)";
+var uzgunRuhHali = "Oldukça üzgün :(";
 function RuhHalleri() {
   /* ADIM 1 */
 
@@ -29127,9 +29128,9 @@ function RuhHalleri() {
     /* ADIM 6 */
   };
   var stil = {
-    fontSize: '1.5em',
-    marginBottom: '0.3em',
-    color: 'royalblue' /* ADIM 2 */
+    fontSize: "1.5em",
+    marginBottom: "0.3em",
+    color: "royalblue" /* ADIM 2 */
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
