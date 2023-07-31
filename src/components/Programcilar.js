@@ -56,7 +56,7 @@ export default function Programcilar() {
           // Şöyle diyebiliriz: "aa bu çalışıyor!" Ama programcilar bir state diliminden gelmiyorsa,
           // asla yeni programci ekleyemeyiz, programcilari düzenleyemeyiz ya da silemeyiz. Düzeltin!
           " */
-          enIyilerListesi.map((dev) => (
+          programcilar.map((dev) => (
             <div className="programmer" key={dev.id}>
               {dev.isim}{" "}
               <button
