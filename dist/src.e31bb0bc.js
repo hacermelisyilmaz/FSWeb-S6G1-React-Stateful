@@ -28970,9 +28970,9 @@ function Sayac() {
     setSayici(0);
   };
   var stil = {
-    fontSize: '1.5em',
-    marginBottom: '0.3em',
-    color: 'royalblue' /* ADIM 2 */
+    fontSize: "1.5em",
+    marginBottom: "0.3em",
+    color: sayici % 2 ? "crimson" : "royalblue" /* ADIM 2 */
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
@@ -29406,7 +29406,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56225" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59249" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
