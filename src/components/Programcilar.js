@@ -39,6 +39,7 @@ export default function Programcilar() {
     // Öne çıkan geliştiricinin _isim_ adını döndürmek için her iki state dilimini kullanacak.
     // Closureların güzelliği, argümanlar yoluyla bilgi enjekte etmeye gerek kalmadan programın
     // bu bölgesinden her iki state dilimini de "görebilmemiz"dir.
+    return programcilar[oneCikanProgramciID - 1].isim;
   };
 
   const stil = {
@@ -62,7 +63,7 @@ export default function Programcilar() {
               <button
                 onClick={() => {
                   /* burada dev.id 'yi öne çıkan id'ye atayın */
-                  setOneCikanProgramciID(dev);
+                  setOneCikanProgramciID(dev.id);
                 }}
               >
                 Kutla
