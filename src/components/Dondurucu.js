@@ -39,6 +39,7 @@ import React, { useState } from "react"; /* STEP 0 */
 
 export default function Dondurucu() {
   /* ADIM 1 */
+  const [dondurucuAcik, setDondurucuAcik] = useState(true);
 
   const toggleDondurucu = () => {
     /* ADIM 4 */
