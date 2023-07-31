@@ -30,6 +30,9 @@ export default function Programcilar() {
   // İki state dilimine ihtiyacımız olduğundan, state hooku iki kez kullanmamız gerekecek..
   // Bir yanda programcılar listesi, diğer yanda öne çıkan programcının idsi.
 
+  const [programcilar, setProgramcilar] = useState(enIyilerListesi);
+  const [oneCikanProgramciID, setOneCikanProgramciID] = useState(null);
+
   const oneCikaninIsmi = () => {
     // Bunu sona bırakın!
     // Bu bir event handler değil, yardımcıdır. Kullanımını JSX'te gözlemleyin.
