@@ -44,11 +44,11 @@ export default function Input() {
     // Log out the synthetic event object 'evt' and see for yourself.
     const { value } = evt.target;
     /* ADIM 4 */
-    inputDegeri = setInputDegeri(value);
+    setInputDegeri(value);
   };
   const reset = () => {
     /* ADIM 5 */
-    inputDegeri = "";
+    setInputDegeri("");
   };
 
   const stil = {
