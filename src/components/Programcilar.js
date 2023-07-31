@@ -31,7 +31,7 @@ export default function Programcilar() {
   // Bir yanda programcılar listesi, diğer yanda öne çıkan programcının idsi.
 
   const [programcilar, setProgramcilar] = useState(enIyilerListesi);
-  const [oneCikanProgramciID, setOneCikanProgramciID] = useState(null);
+  const [oneCikanProgramciID, setOneCikanProgramciID] = useState(0);
 
   const oneCikaninIsmi = () => {
     // Bunu sona bırakın!
@@ -75,7 +75,7 @@ export default function Programcilar() {
           // Üçlüler, bir şeyin "gerçekliğine" bağlı olarak "bir şeyi veya diğerini" ifade etmek için harikadır..
           // Sözde-kod: öne çıkan true ise metin 1'i oluşturun, aksi takdirde metin 2'yi oluşturun..
           // Sabit kodlanmış false'u doğru değişkenle değiştirin.
-          false
+          oneCikanProgramciID
             ? `🎉 Hadi ${oneCikaninIsmi()}'ı kutlayalım! 🥳`
             : "Harika bir programcı seçin"
         }
